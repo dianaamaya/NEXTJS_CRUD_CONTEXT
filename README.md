@@ -1,26 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## NextJS + CRUD + Context + Tailwind
 
-## Getting Started
+This application allows users to create/read/update/delete notes. This project was developed with NextJS. The App uses Tailwind as CSS framework, context to share data between components, react-hook-form to validate forms and Toaster to show messages to the user.
 
-First, run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+```
+git clone git@github.com:dianaamaya/NEXTJS_CRUD_CONTEXT.git
+cd NEXTJS_CRUD_CONTEXT
+npm i
+npm run dev - to run the development server
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Now you can visit [http://localhost:3000](http://localhost:3000)
 
 ## Learn More
 
